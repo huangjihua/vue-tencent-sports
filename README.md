@@ -17,9 +17,13 @@ npm run build --report
 ```
 
 >新建vue项目：
-  * vue init webpack vue-tencent-sports 
+  vue init webpack vue-tencent-sports 
   
 >安装依赖包：
-  * npm install
+  npm install
+ 
+>修改默认端口号：
+  在config/index.js中修改即可（个人想修改而已）
+
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
