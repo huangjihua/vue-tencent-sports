@@ -1,12 +1,14 @@
 <template>
   <div>
-    <v-header :pageIndex="pageIndex" :routes="routes" ></v-header>
+    <v-header :pageIndex="pageIndex" :routes="routes"></v-header>
+    <v-footer></v-footer>
   </div>
 </template>
 
 <script>
 
   import vHeader from '../components/public/head.vue'
+  import vFooter from '../components/public/footer.vue'
 
   export default{
     data(){
@@ -16,7 +18,7 @@
       }
     },
     components: {
-      vHeader
+      vHeader, vFooter
     },
     methods: {},
     mounted(){

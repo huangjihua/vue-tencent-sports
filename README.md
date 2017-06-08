@@ -44,6 +44,14 @@ npm run build --report
    ```
    说明：stylus是一个CSS预处理框架，默认使用 .styl 的作为文件扩展名，支持多样性的CSS语法。
    
+##相关知识
+ >原生事件：@click.native="..."
+ ``` 
+    根据Vue2.0官方文档关于父子组件通讯的原则，父组件通过prop传递数据给子组件，子组件触发事件给父组件。
+    但父组件想在子组件上监听自己的click的话，需要加上native修饰符。
+    所以如果在想要在router-link上添加事件的话需要@click.native这样写
+  ```
+   
 
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).

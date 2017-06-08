@@ -24,8 +24,8 @@
     position fixed
     top 0
     z-index 99
-    height 3.66rem
-    line-height 3.66rem
+    height 3.26rem
+    line-height 3.26rem
     background-color #3466f6
     display flex
     width 100%
@@ -33,7 +33,7 @@
       text-align center
       flex 2
       color #fff
-      font-size 2.66rem
+      font-size 2.26rem
       font-weight 300
     .head_tunnels
       flex 9
@@ -43,8 +43,8 @@
       white-space nowrap
       .head_tunnel
         display inline
-        padding 0 1rem 0 1rem
-        font-size 1.66rem
+        padding 0 .206667rem 0 .406667rem
+        font-size 1.26rem
         color #aabefa
         .router-link-active
           color #fff
